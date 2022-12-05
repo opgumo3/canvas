@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CurtainDeco</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!-- 바탕화면, 글자 색, 폰트, 내용  -->
+    <label for="background-color">배경색상 </label><input type="color" id="background-color"> <br>
+    <label for="contents">내용 </label><input type="text" id="contents"> <br>
+    <label for="font-color">글자색 </label><input type="color" id="font-color"> <br>
+    <label for="font">폰트 </label><input type="checkbox" id="font"> <br>
+    <button onclick="makeCurtain()">만들기</button> <br>
+    <br>
+    <canvas id="curtain" width="1000" height="700"></canvas>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
